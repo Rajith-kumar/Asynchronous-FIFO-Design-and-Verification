@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_async_fifo_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_async_fifo" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.466 ns"></ZoomStartTime>
+      <ZoomEndTime time="647.967 ns"></ZoomEndTime>
+      <Cursor1Time time="261.966 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_async_fifo/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/wr_rst_n" type="logic">
+      <obj_property name="ElementShortName">wr_rst_n</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/rd_rst_n" type="logic">
+      <obj_property name="ElementShortName">rd_rst_n</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/sent" type="array">
+      <obj_property name="ElementShortName">sent[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sent[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/received" type="array">
+      <obj_property name="ElementShortName">received[31:0]</obj_property>
+      <obj_property name="ObjectShortName">received[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/blocked_writes" type="array">
+      <obj_property name="ElementShortName">blocked_writes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">blocked_writes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/blocked_reads" type="array">
+      <obj_property name="ElementShortName">blocked_reads[31:0]</obj_property>
+      <obj_property name="ObjectShortName">blocked_reads[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/attempts_seen" type="array">
+      <obj_property name="ElementShortName">attempts_seen[31:0]</obj_property>
+      <obj_property name="ObjectShortName">attempts_seen[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/producer_done" type="logic">
+      <obj_property name="ElementShortName">producer_done</obj_property>
+      <obj_property name="ObjectShortName">producer_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/expected" type="array">
+      <obj_property name="ElementShortName">expected[0:4095][15:0]</obj_property>
+      <obj_property name="ObjectShortName">expected[0:4095][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/wr_rng" type="array">
+      <obj_property name="ElementShortName">wr_rng[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_rng[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/rd_rng" type="array">
+      <obj_property name="ElementShortName">rd_rng[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_rng[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/DW" type="array">
+      <obj_property name="ElementShortName">DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/AW" type="array">
+      <obj_property name="ElementShortName">AW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/DEPTH" type="array">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/MAX_WORDS" type="array">
+      <obj_property name="ElementShortName">MAX_WORDS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_WORDS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_async_fifo/WR_ATTEMPTS" type="array">
+      <obj_property name="ElementShortName">WR_ATTEMPTS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_ATTEMPTS[31:0]</obj_property>
+   </wvobject>
+</wave_config>
